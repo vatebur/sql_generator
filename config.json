@@ -1,0 +1,16 @@
+{
+    "database": {
+        "dsn": "localhost/orclpdb",
+        "user": "username",
+        "password": "password"
+    },
+    "table": "LARGE_DATA_TABLE",
+    "schema": "DTS",
+    "num_rows": 100,
+    "pk_name" : "COL1",
+    "pk_start": 100,
+    "varchar_range": [5, 10],
+    "date_range": ["2020-01-01", "2023-01-01"],
+    "clob_range": [1, 50],
+    "blob_size":  50
+}
